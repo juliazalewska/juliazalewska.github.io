@@ -9,10 +9,7 @@ body{ margin:0;}
 #videobcg {
     width: inherit;
     height: inherit;
-    -o-filter: blur(15px);
-    filter: blur(15px);
     object-fit: cover;
-    transform: scale(1.06);
 }
 
 .navbar {
@@ -39,6 +36,14 @@ body{ margin:0;}
     top:30px;
     z-index: -100;
 }
+
+.navbar-placeholder {
+    
+    position: fixed;
+    height:4.5em;
+}
+
+
 
 
 .logo img {
@@ -80,3 +85,26 @@ body{ margin:0;}
     right:0;
     margin: 1em;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+
+
+
+
+
+
