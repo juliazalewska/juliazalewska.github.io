@@ -15,11 +15,20 @@ body{ margin:0;
 }
 
 .content {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 25vw;
+    padding-right: 25vw;
     box-sizing: border-box;
     padding-bottom: 5em;
+
 }
+
+@media screen and (max-width: 900px) {
+    .content {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
 
 h1 {
     font-size: 3vw;
@@ -169,7 +178,7 @@ th, td {
     padding: 1em;
     padding-right: 3em;
     padding-left: 0;
-
+    vertical-align: text-top;
     text-align: left;
     width: 33.33%;
 }
@@ -184,5 +193,5 @@ th {
 #adnotation {
     text-align: center;
     padding-top: 2em;
-    font-size: 0.5vw;
+    font-size: 0.7em;
 }
