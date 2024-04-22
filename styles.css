@@ -44,6 +44,11 @@ h3 {
     text-align: left;
     margin-bottom: 0;
 }
+h4 {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-bottom: 0;
+}
 p {
     font-size: 1.1vw;
     font-family: "DM Sans", sans-serif;
@@ -221,7 +226,7 @@ th {
   .project-title {
     margin-top: 0px;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
 
   .project-subtitle {
@@ -232,4 +237,8 @@ th {
 
   .project-description {
     font-size: 16px;
+  }
+
+  .brief {
+    color: black;
   }
