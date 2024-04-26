@@ -188,6 +188,7 @@ p {
 table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 24px;
 }
 th, td {
     border: 0px solid #ddd;
@@ -209,7 +210,7 @@ th {
 #adnotation {
     text-align: center;
     padding-top: 2em;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 
@@ -232,14 +233,14 @@ th {
 
   .project-title {
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0px;
   }
 
   .project-subtitle {
-    font-size: 14px;
-    font-style: italic;
+    font-size: 16px;
     margin-bottom: 10px;
+    color: black;
   }
 
   .project-description {
@@ -251,6 +252,12 @@ th {
 
   .brief {
     color: black;
+    font-weight: 500;
+  }
+
+  .brief-b {
+    color: black;
+    font-size: 24px;
   }
 
   .name {
