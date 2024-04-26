@@ -36,6 +36,7 @@ h1 {
     text-align: left;
 }
 h2 {
+    font-weight: 550;
     font-size: 2.5vw;
     text-align: left;
 }
@@ -141,6 +142,10 @@ p {
 
 .subsites li {
     margin-right: 4em;
+}
+
+li:hover {
+    text-decoration: underline;
 }
 
 .subsites-home {
